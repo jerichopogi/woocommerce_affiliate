@@ -1,0 +1,74 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.vlp-woo-affiliate-label {
+    margin-right: 50px;
+}
+
+.vlp-woo-affiliate-field {
+    width: 50%;
+}
+
+table.vlp-woo-affiliate-table {
+    width: 50%;
+    border: 1px solid #ddd;
+}
+
+table.vlp-woo-affiliate-table th{
+    background-color: #F7931E;
+    color: #fff;
+}
+
+table.vlp-woo-affiliate-table th, table.vlp-woo-affiliate-table td {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+table.vlp-woo-affiliate-table tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+button {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 3px;	
+}
+  
+#overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+  
+#popup {
+    max-width: 600px;
+    width: 80%;
+    padding: 20px;
+    position: absolute;
+    background: #fff;
+    margin: 20px auto;
+    left: 35%;
+    top: 30%;
+}
+  
+#close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #000;
+}
